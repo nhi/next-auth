@@ -1,5 +1,5 @@
 > DISCLAIMER:
-> This repository is a temporary solution that optimistically assumes that [#823](https://github.com/nextauthjs/next-auth/pull/823) and [#837](https://github.com/nextauthjs/next-auth/pull/837) will be merged at some point. We are dependend on these changes at work right now, and since none of these changes are breaking changes, we hope that they will be accepted and merged. That said, if you install `@balazsorban44/next-auth`, it is at your own risk, you have been warned, the package can be outdated or removed at any point without any warnings!
+> This repository is a temporary solution that optimistically assumes that [#823](https://github.com/nextauthjs/next-auth/pull/823) and [#837](https://github.com/nextauthjs/next-auth/pull/837) will be merged at some point. We are dependend on these changes at work right now, and since none of these changes are breaking changes, we hope that they will be accepted and merged. That said, if you install `@nhi/next-auth`, it is at your own risk, you have been warned, the package can be outdated or removed at any point without any warnings!
 
 # NextAuth.js
 
