@@ -1,6 +1,6 @@
 {
   "name": "@nhi/next-auth",
-  "version": "3.1.0-canary.0",
+  "version": "3.1.0-canary.1",
   "description": "Authentication for Next.js",
   "homepage": "https://next-auth.js.org",
   "repository": "https://github.com/nhi/next-auth.git",
