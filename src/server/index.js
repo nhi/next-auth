@@ -27,6 +27,9 @@ export default async (req, res, userSuppliedOptions) => {
   // (and then return that promise when we are done) - eslint
   // complains but I'm not sure there is another way to do this.
   return new Promise(async resolve => { // eslint-disable-line no-async-promise-executor
+    if(userSuppliedOptions.logger) {
+      logger.setLogger(logger)
+    }
     // This is passed to all methods that handle responses, and must be called
     // when they are complete so that the serverless function knows when it is
     // safe to return and that no more data will be sent.
